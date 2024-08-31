@@ -133,7 +133,9 @@
     justify-content: space-evenly;
 }
 .intro img{
+    box-shadow: 0 1px 25px 1px black;
     border-radius: 40%;
+    
 }
 @media(max-width: 768px){
     .intro {
@@ -305,7 +307,10 @@
 
 /* Projects */
 #projects .card{
+    color: black;
     overflow: hidden;
+    margin-bottom: 30px;
+    width: 18rem;
 }
 #projects .card img{
     transition-duration: 0.5s;
@@ -314,6 +319,7 @@
     transform: scale(1.15,1.15);
 }
 
+/* For Navigation  */
 #home.show, #about.show, #skills.show, #projects.show, #contact.show{
     transform: translate(0%);
 }
